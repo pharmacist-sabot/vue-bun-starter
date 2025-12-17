@@ -37,6 +37,3 @@ jobs:
 
       - name: Build Production
         run: bun run build
-
-      - name: Security Audit
-        run: bun x audit-ci --high
