@@ -1,118 +1,117 @@
 # Vue Bun Starter Template
 
-![CI Quality](https://github.com/pharmacist-sabot/vue-bun-starter/actions/workflows/ci.yml/badge.svg)
-[![Vue](https://img.shields.io/badge/Vue-3.5+-4FC08D?logo=vue.js)](https://vuejs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.9+-3178C6?logo=typescript)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-7.2+-646CFF?logo=vite)](https://vitejs.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.1+-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)
-[![Vitest](https://img.shields.io/badge/Vitest-4.0+-6E9F18?logo=vitest)](https://vitest.dev/)
-[![Bun](https://img.shields.io/badge/Bun-2.0+-000000?logo=bun&logoColor=white)](https://bun.sh)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+<div align="center">
 
-> **A professional-grade, opinionated starter template for scalable Vue 3 applications.**
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" alt="Vue" width="80" />
+  <span style="font-size: 40px; margin: 0 20px;">+</span>
+  <img src="https://bun.sh/logo.svg" alt="Bun" width="80" />
 
-Designed for developer experience, code quality, and long-term maintainability. This template pre-configures the best-in-class tools so you can focus on building features, not configuring build tools.
+  <h1>Vue 3 + Bun + TypeScript</h1>
+
+  <p>
+    <strong>A professional-grade, opinionated starter template for scalable Vue 3 applications.</strong>
+  </p>
+
+  <p>
+    <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/Vue-3.5+-4FC08D?logo=vue.js&logoColor=white" alt="Vue"></a>
+    <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-5.9+-3178C6?logo=typescript&logoColor=white" alt="TypeScript"></a>
+    <a href="https://vitejs.dev/"><img src="https://img.shields.io/badge/Vite-7.0+-646CFF?logo=vite&logoColor=white" alt="Vite"></a>
+    <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-4.1+-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind"></a>
+    <a href="https://bun.sh"><img src="https://img.shields.io/badge/Bun-1.3+-000000?logo=bun&logoColor=white" alt="Bun"></a>
+  </p>
+
+  <p>
+    <a href="https://github.com/pharmacist-sabot/vue-bun-starter/actions"><img src="https://github.com/pharmacist-sabot/vue-bun-starter/actions/workflows/ci.yml/badge.svg" alt="CI Status"></a>
+    <a href="https://github.com/pharmacist-sabot/vue-bun-starter/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
+    <a href="https://github.com/semantic-release/semantic-release"><img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" alt="Semantic Release"></a>
+  </p>
+
+</div>
 
 ---
+
+## 📖 About
+
+Designed for **Developer Experience (DX)**, code quality, and long-term maintainability. This template pre-configures the best-in-class tools so you can focus on building features, not configuring build tools.
+
+It comes with a fully automated **CI/CD pipeline** utilizing GitHub Actions and Semantic Release to handle versioning and changelogs automatically.
 
 ## ✨ Features
 
 ### ⚡️ Core Stack
 
-- **[Vue 3.5+](https://vuejs.org/)**: Utilizing the Composition API with `<script setup>` for concise and performant components.
-- **[TypeScript 5.9+](https://www.typescriptlang.org/)**: configured with `strict: true` and `noUncheckedIndexedAccess` for maximum type safety.
-- **[Vite 7](https://vitejs.dev/)**: Next-generation frontend tooling with instant server start and lightning-fast HMR.
-- **[Tailwind CSS 4.1](https://tailwindcss.com/)**: The latest utility-first CSS framework, integrated via the new Vite plugin for optimal performance.
+- **[Vue 3.5+](https://vuejs.org/)**: Composition API with `<script setup>` for concise components.
+- **[TypeScript 5.9+](https://www.typescriptlang.org/)**: Configured with `strict: true` and `noUncheckedIndexedAccess` for maximum type safety.
+- **[Vite 7](https://vitejs.dev/)**: Next-generation frontend tooling with instant server start.
+- **[Tailwind CSS 4.1](https://tailwindcss.com/)**: The latest utility-first CSS framework (Vite native integration).
 
 ### 🛠 Developer Experience
 
-- **[ESLint](https://eslint.org/)**: Powered by [@antfu/eslint-config](https://github.com/antfu/eslint-config) for a zero-config, opinionated linting and formatting experience.
-- **[Husky](https://typicode.github.io/husky/) & [lint-staged](https://github.com/okonet/lint-staged)**: Ensures all committed code meets quality standards.
-- **[Commitlint](https://commitlint.js.org/)**: Enforces [Conventional Commits](https://www.conventionalcommits.org/) for clean and semantic git history.
-- **[VueUse](https://vueuse.org/)**: A collection of essential Vue Composition Utilities.
+- **[ESLint](https://eslint.org/)**: Powered by `@antfu/eslint-config` for zero-config, opinionated linting.
+- **[Husky](https://typicode.github.io/husky/) & [lint-staged](https://github.com/okonet/lint-staged)**: Ensures quality before commit.
+- **[Commitlint](https://commitlint.js.org/)**: Enforces [Conventional Commits](https://www.conventionalcommits.org/).
+- **[VueUse](https://vueuse.org/)**: Essential Vue Composition Utilities.
 
-### 🧩 Architecture
+### 🧪 Quality & CI/CD
 
-- **[Pinia](https://pinia.vuejs.org/)**: The intuitive, type-safe store for Vue.
-- **[Vue Router](https://router.vuejs.org/)**: Standard routing with history mode and lazy-loading support.
-- **File-Based Routing**: Structured `views` directory for clear page organization.
-- **Path Aliases**: `@/` configured to resolve to `./src/`.
-
-### 🧪 Testing & Quality
-
-- **[Vitest](https://vitest.dev/)**: Blazing fast unit testing framework, API-compatible with Jest.
-- **[GitHub Actions](https://github.com/features/actions)**: Automated CI pipeline for linting, type-checking, and testing.
-
----
-
-## 💻 IDE Setup
-
-For the best experience, we recommend **[VS Code](https://code.visualstudio.com/)** with the following configuration:
-
-1.  **Install Extensions**:
-    - [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (formerly Volar)
-    - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
-    - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
-2.  **Workspace Settings**:
-    This project includes `.vscode/extensions.json` and `.vscode/settings.json` to automatically configure your editor for:
-    - Auto-fixing lint errors on save.
-    - Correct TypeScript integration with Vue.
-
-> **Note:** If you have the legacy **Vetur** extension installed, please **disable** it for this workspace to avoid conflicts.
-
----
-
-## 📋 Prerequisites
-
-Ensure your environment meets the following requirements:
-
-| Requirement | Version     | Note                             |
-| :---------- | :---------- | :------------------------------- |
-| **Node.js** | `22+` (LTS) | Required for modern build tools. |
-| **bun**     | `2.0+`      | Enforced via `package.json`.     |
+- **[Vitest](https://vitest.dev/)**: Blazing fast unit testing.
+- **Automated Releases**: GitHub Actions workflow for semantic versioning, changelog generation, and tagging.
+- **Bun Optimized**: Fast dependency installation and script execution.
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+### 1. Use this Template
+
+Click the **"Use this template"** button on GitHub to create a new repository, or clone it manually:
 
 ```bash
+# Clone the repository
 git clone https://github.com/pharmacist-sabot/vue-bun-starter.git my-app
 cd my-app
 ```
 
-### 2. Install dependencies
+### 2. Setup (Important for New Projects)
 
-```bash
-bun install
-```
+If you are starting a fresh project from this template, run these steps to detach from the template history:
 
-### 3. Start development server
+1.  **Install Dependencies:**
+    ```bash
+    bun install
+    ```
+2.  **Reset Git History (Optional):**
+    ```bash
+    rm -rf .git
+    git init
+    ```
+3.  **Update Configuration:**
+    - Update `name` and `author` in `package.json`.
+    - Clear `CHANGELOG.md` content (start fresh).
+    - Update `README.md` title and badges.
+
+### 3. Start Development
 
 ```bash
 bun dev
 ```
 
-The application will be available at `http://localhost:5173/`.
+The app will be available at `http://localhost:5173/`.
 
 ---
 
 ## 📜 Available Scripts
 
-| Category        | Script              | Description                               |
-| :-------------- | :------------------ | :---------------------------------------- |
-| **Development** | `bun dev`           | Start the development server with HMR.    |
-|                 | `bun preview`       | Preview the production build locally.     |
-| **Build**       | `bun build`         | Run type-checks and build for production. |
-| **Quality**     | `bun lint`          | Lint and format all files.                |
-|                 | `bun lint:fix`      | Auto-fix linting and formatting issues.   |
-|                 | `bun type-check`    | Run the TypeScript compiler (no emit).    |
-|                 | `bun audit`         | Check for high-severity vulnerabilities.  |
-| **Testing**     | `bun test:unit`     | Run unit tests in watch mode.             |
-|                 | `bun test:coverage` | Run tests and generate coverage reports.  |
-| **Lifecycle**   | `bun prepare`       | Install Husky git hooks.                  |
+| Script           | Description                              |
+| :--------------- | :--------------------------------------- |
+| `bun dev`        | Start development server with HMR.       |
+| `bun build`      | Type-check and build for production.     |
+| `bun preview`    | Preview the production build locally.    |
+| `bun lint`       | Lint and format all files.               |
+| `bun lint:fix`   | Auto-fix linting issues.                 |
+| `bun type-check` | Run TypeScript compiler check (no emit). |
+| `bun test:unit`  | Run unit tests in watch mode.            |
+| `bun prepare`    | Install Husky git hooks.                 |
 
 ---
 
@@ -120,71 +119,57 @@ The application will be available at `http://localhost:5173/`.
 
 ```text
 .
-├── .github/             # CI/CD workflows (GitHub Actions)
-├── .husky/              # Git hooks configuration
-├── .vscode/             # VS Code workspace settings
+├── .github/workflows/   # CI/CD pipelines (Release & Checks)
+├── .husky/              # Git hooks
 ├── src/
-│   ├── assets/          # Static assets (images, fonts, global CSS)
+│   ├── assets/          # Static assets
 │   ├── components/      # Reusable UI components
-│   │   └── common/      # Generic components (Buttons, Inputs, etc.)
-│   ├── composables/     # Shared logic (Vue Composables)
-│   ├── layouts/         # Layout components (e.g., Sidebar, Header)
-│   ├── router/          # Routing configuration
-│   ├── stores/          # Global state management (Pinia)
-│   ├── types/           # TypeScript type definitions
-│   ├── utils/           # Helper functions and utilities
+│   ├── composables/     # Shared Vue logic
+│   ├── layouts/         # Layout components
+│   ├── router/          # Vue Router config
+│   ├── stores/          # Pinia stores
+│   ├── types/           # TypeScript definitions
+│   ├── utils/           # Helper functions
 │   ├── views/           # Page-level components
 │   ├── App.vue          # Root component
-│   └── main.ts          # Application entry point
-├── tests/               # Unit tests (mirrors src structure)
-├── eslint.config.mjs    # ESLint  configuration
-├── tsconfig.json        # TypeScript configuration
-└── vite.config.ts       # Vite configuration
+│   └── main.ts          # Entry point
+├── tests/               # Unit tests
+├── eslint.config.mjs    # ESLint config
+└── vite.config.ts       # Vite config
 ```
 
 ---
 
-## 🔧 Configuration Details
+## ⚙️ Configuration Notes
 
-### TypeScript
+### Semantic Release
 
-We use a strict TypeScript configuration to catch errors early.
+This template includes a `.releaserc` configuration.
 
-- **`strict: true`**: Enables all strict type checking options.
-- **`noUncheckedIndexedAccess: true`**: Prevents accessing array/object indices without checking for `undefined`.
+- It automatically bumps version numbers based on commit messages.
+- It generates a `CHANGELOG.md`.
+- **To enable:** Ensure you have `GITHUB_TOKEN` or a PAT configured in your GitHub Actions secrets if you have branch protections.
 
-### ESLint
+### IDE Setup (VS Code)
 
-We utilize **@antfu/eslint-config**, which provides a curated set of rules for Vue, TypeScript, and general code style.
+Recommended extensions are pre-configured in `.vscode/extensions.json`.
 
-- **No Prettier**: Formatting is handled directly by ESLint.
-- **Auto-Import Sorting**: Imports are automatically sorted and grouped.
-- **Single Quotes & Semicolons**: Configured for consistency.
-
----
-
-## 🚢 Deployment
-
-### Static Hosting (Vercel, Netlify, etc.)
-
-This project builds a static SPA.
-
-1. **Build Command**: `bun build`
-2. **Output Directory**: `dist`
-3. **Node Version**: `22.x`
+- **Vue - Official** (Volar)
+- **Tailwind CSS IntelliSense**
+- **ESLint** (Disable _Vetur_ to avoid conflicts)
 
 ---
 
 ## 🤝 Contributing
 
 1.  **Fork** the repository.
-2.  **Create** a feature branch: `git checkout -b feat/my-feature`.
-3.  **Commit** your changes following [Conventional Commits](https://www.conventionalcommits.org/): `git commit -m "feat: add amazing feature"`.
-4.  **Push** to the branch: `git push origin feat/my-feature`.
+2.  **Create** a feature branch (`git checkout -b feat/awesome-feature`).
+3.  **Commit** using [Conventional Commits](https://www.conventionalcommits.org/) (`feat: add awesome feature`).
+4.  **Push** to the branch.
 5.  **Open** a Pull Request.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+[MIT](LICENSE)
