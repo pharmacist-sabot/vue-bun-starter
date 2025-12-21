@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/pharmacist-sabot/vue-bun-starter/compare/v1.0.2...v1.0.3) (2025-12-21)
+
+### 📝 Documentation
+
+* improve README layout and formatting ([42472de](https://github.com/pharmacist-sabot/vue-bun-starter/commit/42472deb14d9b14b1bb2d3b695ca8de915e385ef))
+
 ## [1.0.2](https://github.com/pharmacist-sabot/vue-bun-starter/compare/v1.0.1...v1.0.2) (2025-12-21)
 
 ### 📝 Documentation
