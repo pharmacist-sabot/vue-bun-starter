@@ -1,6 +1,7 @@
+<div align="center">
+
 # Vue Bun Starter Template
 
-<div align="center">
   <p>
     <strong>A professional-grade, opinionated starter template for scalable Vue 3 applications.</strong>
   </p>
