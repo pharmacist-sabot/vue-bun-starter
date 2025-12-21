@@ -1,13 +1,6 @@
 # Vue Bun Starter Template
 
 <div align="center">
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" alt="Vue" width="80" />
-  <span style="font-size: 40px; margin: 0 20px;">+</span>
-  <img src="https://bun.sh/logo.svg" alt="Bun" width="80" />
-
-  <h1>Vue 3 + Bun + TypeScript</h1>
-
   <p>
     <strong>A professional-grade, opinionated starter template for scalable Vue 3 applications.</strong>
   </p>
@@ -22,8 +15,13 @@
 
   <p>
     <a href="https://github.com/pharmacist-sabot/vue-bun-starter/actions"><img src="https://github.com/pharmacist-sabot/vue-bun-starter/actions/workflows/ci.yml/badge.svg" alt="CI Status"></a>
-    <a href="https://github.com/pharmacist-sabot/vue-bun-starter/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
+    <a href="https://github.com/pharmacist-sabot/vue-bun-starter/blob/main/LICENSE"><img src="https://img.shields.io/github/license/pharmacist-sabot/vue-bun-starter" alt="License"></a>
     <a href="https://github.com/semantic-release/semantic-release"><img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" alt="Semantic Release"></a>
+    <a href="https://vue-bun-starter.netlify.app"><img src="https://img.shields.io/badge/Demo-Live-00C7B7?logo=netlify&logoColor=white" alt="Live Demo"></a>
+  </p>
+
+  <p>
+    <a href="https://vue-bun-starter.netlify.app"><strong>🌐 View Live Demo →</strong></a>
   </p>
 
 </div>
@@ -60,6 +58,23 @@ It comes with a fully automated **CI/CD pipeline** utilizing GitHub Actions and 
 
 ---
 
+## 📋 Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- **[Bun](https://bun.sh/)** >= 1.0 (recommended: latest)
+- **[Node.js](https://nodejs.org/)** >= 18 (for compatibility with some tools)
+- **[Git](https://git-scm.com/)** for version control
+
+```bash
+# Verify installations
+bun --version
+node --version
+git --version
+```
+
+---
+
 ## 🚀 Getting Started
 
 ### 1. Use this Template
@@ -81,10 +96,18 @@ If you are starting a fresh project from this template, run these steps to detac
     bun install
     ```
 2.  **Reset Git History (Optional):**
+
     ```bash
+    # Linux/macOS
     rm -rf .git
+
+    # Windows (PowerShell)
+    Remove-Item -Recurse -Force .git
+
+    # Then initialize a new repository
     git init
     ```
+
 3.  **Update Configuration:**
     - Update `name` and `author` in `package.json`.
     - Clear `CHANGELOG.md` content (start fresh).
