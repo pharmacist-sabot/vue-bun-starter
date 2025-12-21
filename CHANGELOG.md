@@ -1,3 +1,13 @@
+## [1.0.2](https://github.com/pharmacist-sabot/vue-bun-starter/compare/v1.0.1...v1.0.2) (2025-12-21)
+
+### 📝 Documentation
+
+* improve README with prerequisites, demo link, and cross-platform commands ([c991ef2](https://github.com/pharmacist-sabot/vue-bun-starter/commit/c991ef20a9f423071bc592f4e18a43ca1cc5376e))
+
+### 📦 Dependency Updates
+
+* add MIT license ([7cdb2ea](https://github.com/pharmacist-sabot/vue-bun-starter/commit/7cdb2ea27af0b7d326e6344274abfae7625b56e5))
+
 ## [1.0.1](https://github.com/pharmacist-sabot/vue-bun-starter/compare/v1.0.0...v1.0.1) (2025-12-20)
 
 ### 📝 Documentation
