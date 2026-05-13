@@ -1,3 +1,9 @@
+## [1.0.10](https://github.com/suradet-ps/vue-bun-starter/compare/v1.0.9...v1.0.10) (2026-05-13)
+
+### 📦 Dependency Updates
+
+* **deps:** update dependency bun to v1.3.14 ([#16](https://github.com/suradet-ps/vue-bun-starter/issues/16)) ([1bbd729](https://github.com/suradet-ps/vue-bun-starter/commit/1bbd729c7ea63cb3071389aac4e4cd6c496bd870))
+
 ## [1.0.9](https://github.com/suradet-ps/vue-bun-starter/compare/v1.0.8...v1.0.9) (2026-04-23)
 
 ### 📦 Dependency Updates
