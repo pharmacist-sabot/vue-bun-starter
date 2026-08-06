@@ -1,3 +1,11 @@
+## [1.0.11](https://github.com/suradet-ps/vue-bun-starter/compare/v1.0.10...v1.0.11) (2026-08-06)
+
+### 📦 Dependency Updates
+
+* **deps:** update dependency @antfu/eslint-config to v9 ([c6813a9](https://github.com/suradet-ps/vue-bun-starter/commit/c6813a9a9ef24d53d3ba0a879a041fccaccaa0d3))
+* update commitlint monorepo to v21 ([#17](https://github.com/suradet-ps/vue-bun-starter/issues/17)) ([600aed6](https://github.com/suradet-ps/vue-bun-starter/commit/600aed6a7b1880ebe799b48b8eef6ec7722575f8))
+* update dependency lint-staged to v17 ([#18](https://github.com/suradet-ps/vue-bun-starter/issues/18)) ([8bb062a](https://github.com/suradet-ps/vue-bun-starter/commit/8bb062a06d44605f2b7740cb1b619b1e8160b00f))
+
 ## [1.0.10](https://github.com/suradet-ps/vue-bun-starter/compare/v1.0.9...v1.0.10) (2026-05-13)
 
 ### 📦 Dependency Updates
