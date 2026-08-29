@@ -142,4 +142,4 @@ merge. [Watch the gates](.github/workflows).
   ─────────────────────────────────────────
 ```
 
-[MIT](LICENSE)
+Source code under the [MIT License](LICENSE).
