@@ -1,199 +1,145 @@
-<div align="center">
-
 # Vue Bun Starter Template
 
-  <p>
-    <strong>A professional-grade, opinionated starter template for scalable Vue 3 applications.</strong>
-  </p>
-
-  <p>
-    <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/Vue-3.5+-4FC08D?logo=vue.js&logoColor=white" alt="Vue"></a>
-    <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-5.9+-3178C6?logo=typescript&logoColor=white" alt="TypeScript"></a>
-    <a href="https://vitejs.dev/"><img src="https://img.shields.io/badge/Vite-7.0+-646CFF?logo=vite&logoColor=white" alt="Vite"></a>
-    <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-4.1+-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind"></a>
-    <a href="https://bun.sh"><img src="https://img.shields.io/badge/Bun-1.3+-000000?logo=bun&logoColor=white" alt="Bun"></a>
-  </p>
-
-  <p>
-    <a href="https://github.com/suradet-ps/vue-bun-starter/actions"><img src="https://github.com/suradet-ps/vue-bun-starter/actions/workflows/ci.yml/badge.svg" alt="CI Status"></a>
-    <a href="https://github.com/suradet-ps/vue-bun-starter/blob/main/LICENSE"><img src="https://img.shields.io/github/license/suradet-ps/vue-bun-starter" alt="License"></a>
-    <a href="https://github.com/semantic-release/semantic-release"><img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" alt="Semantic Release"></a>
-    <a href="https://vue-bun-starter.netlify.app"><img src="https://img.shields.io/badge/Demo-Live-00C7B7?logo=netlify&logoColor=white" alt="Live Demo"></a>
-  </p>
-
-  <p>
-    <a href="https://vue-bun-starter.netlify.app"><strong> View Live Demo →</strong></a>
-  </p>
-
-</div>
-
----
-
-## About
-
-Designed for **Developer Experience (DX)**, code quality, and long-term maintainability. This template pre-configures the best-in-class tools so you can focus on building features, not configuring build tools.
-
-It comes with a fully automated **CI/CD pipeline** utilizing GitHub Actions and Semantic Release to handle versioning and changelogs automatically.
-
-## Features
-
-### Core Stack
-
-- **[Vue 3.5+](https://vuejs.org/)**: Composition API with `<script setup>` for concise components.
-- **[TypeScript 5.9+](https://www.typescriptlang.org/)**: Configured with `strict: true` and `noUncheckedIndexedAccess` for maximum type safety.
-- **[Vite 7](https://vitejs.dev/)**: Next-generation frontend tooling with instant server start.
-- **[Tailwind CSS 4.1](https://tailwindcss.com/)**: The latest utility-first CSS framework (Vite native integration).
-
-### Developer Experience
-
-- **[ESLint](https://eslint.org/)**: Powered by `@antfu/eslint-config` for zero-config, opinionated linting.
-- **[Husky](https://typicode.github.io/husky/) & [lint-staged](https://github.com/okonet/lint-staged)**: Ensures quality before commit.
-- **[Commitlint](https://commitlint.js.org/)**: Enforces [Conventional Commits](https://www.conventionalcommits.org/).
-- **[VueUse](https://vueuse.org/)**: Essential Vue Composition Utilities.
-
-### Quality & CI/CD
-
-- **[Vitest](https://vitest.dev/)**: Blazing fast unit testing.
-- **Automated Releases**: GitHub Actions workflow for semantic versioning, changelog generation, and tagging.
-- **Bun Optimized**: Fast dependency installation and script execution.
-
----
-
-## Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- **[Bun](https://bun.sh/)** >= 1.0 (recommended: latest)
-- **[Node.js](https://nodejs.org/)** >= 18 (for compatibility with some tools)
-- **[Git](https://git-scm.com/)** for version control
-
-```bash
-# Verify installations
-bun --version
-node --version
-git --version
+```
+██╗   ██╗██╗   ██╗███████╗██████╗ ██╗   ██╗███╗   ██╗
+██║   ██║██║   ██║██╔════╝██╔══██╗██║   ██║████╗  ██║
+██║   ██║██║   ██║█████╗  ██████╔╝██║   ██║██╔██╗ ██║
+╚██╗ ██╔╝██║   ██║██╔══╝  ██╔══██╗██║   ██║██║╚██╗██║
+ ╚████╔╝ ╚██████╔╝███████╗██████╔╝╚██████╔╝██║ ╚████║
+  ╚═══╝ ╚═════╝ ╚══════╝╚═════╝ ╚═════╝ ╚═╝  ╚═══╝
 ```
 
 ---
 
-## Getting Started
+## ◆ PULSE
 
-### 1. Use this Template
+A new Vue project should start with its decisions made and its
+releases automated. This is the Bun edition of the opinionated
+starter: Vue 3.5 with `<script setup>`, TypeScript that refuses
+unchecked access, Tailwind 4 via Vite, and a quality corridor -
+ESLint, Husky, Commitlint, Vitest - plus Semantic Release, so the
+version bumps, the changelog grows, and the tags land without a human
+holding the release button. Clone it, rename it, and ship the feature
+that matters.
 
-Click the **"Use this template"** button on GitHub to create a new repository, or clone it manually:
+| Type-safe ▣ | CI/CD ▣ | Semantic release ▣ | Bun-fast ▣ |
+|---|---|---|---|
 
-```bash
-# Clone the repository
-git clone https://github.com/suradet-ps/vue-bun-starter.git my-app
-cd my-app
+*v1.0.12 - the scaffold - stack, gates, releases - is sealed.*
+
+> Built with Vue 3.5 + TypeScript 5.9 + Vite 7 + Bun, released by
+> Semantic Release - the boring parts, decided once, automated after.
+>
+> **suradet-ps**, artifact keeper
+
+---
+
+## ◆ IGNITION
+
+Three commands, a new project with a release pipeline.
+
+```
+⟫ git clone https://github.com/suradet-ps/vue-bun-starter.git my-app
+⟫ cd my-app
+⟫ bun install
+⟫ bun dev
 ```
 
-### 2. Setup (Important for New Projects)
+Open [http://localhost:5173](http://localhost:5173).
 
-If you are starting a fresh project from this template, run these steps to detach from the template history:
-
-1.  **Install Dependencies:**
-    ```bash
-    bun install
-    ```
-2.  **Reset Git History (Optional):**
-
-    ```bash
-    # Linux/macOS
-    rm -rf .git
-
-    # Windows (PowerShell)
-    Remove-Item -Recurse -Force .git
-
-    # Then initialize a new repository
-    git init
-    ```
-
-3.  **Update Configuration:**
-    - Update `name` and `author` in `package.json`.
-    - Clear `CHANGELOG.md` content (start fresh).
-    - Update `README.md` title and badges.
-
-### 3. Start Development
-
-```bash
-bun dev
+```
+⟫ bun build          # type-check, then production build
+⟫ bun lint           # ESLint + formatting
+⟫ bun test:unit      # Vitest
 ```
 
-The app will be available at `http://localhost:5173/`.
+<details>
+<summary>Detaching from the template</summary>
+
+1. `rm -rf .git` (or `Remove-Item -Recurse -Force .git` on Windows)
+   then `git init`.
+2. Update `name` and `author` in `package.json`.
+3. Clear `CHANGELOG.md`; update the README title.
+4. `bun prepare` installs the Husky hooks; the corridor is live.
+
+</details>
+
+Live demo: [vue-bun-starter.netlify.app](https://vue-bun-starter.netlify.app).
 
 ---
 
-## Available Scripts
+## ◆ ANATOMY
 
-| Script           | Description                              |
-| :--------------- | :--------------------------------------- |
-| `bun dev`        | Start development server with HMR.       |
-| `bun build`      | Type-check and build for production.     |
-| `bun preview`    | Preview the production build locally.    |
-| `bun lint`       | Lint and format all files.               |
-| `bun lint:fix`   | Auto-fix linting issues.                 |
-| `bun type-check` | Run TypeScript compiler check (no emit). |
-| `bun test:unit`  | Run unit tests in watch mode.            |
-| `bun prepare`    | Install Husky git hooks.                 |
+One scaffold, several already-made decisions, one release bot.
+
+- **Types** - `strict: true` and `noUncheckedIndexedAccess` on
+  TypeScript 5.9 - an index access without a guard is a compile
+  error, not a runtime surprise.
+- **Styles** - Tailwind CSS 4 with Vite-native integration -
+  utility-first styling without a PostCSS pipeline to babysit.
+- **Structures** - Pinia stores, Vue Router, `views/`, `composables/`,
+  `layouts/`, and `@/` aliases - the architecture is a convention
+  before the first feature.
+- **Gates** - `@antfu/eslint-config` lints and formats; Husky and
+  lint-staged guard every commit; Commitlint enforces conventional
+  commits; Vitest stands ready for unit tests.
+- **Releases** - Semantic Release reads the conventional commits and
+  does the rest: version bump, `CHANGELOG.md`, and the tag - the
+  release button no longer needs a human.
+- **Serves** - a live demo on Netlify and a CI/CD workflow already
+  wired - the template demonstrates its own deployment.
 
 ---
 
-## Project Structure
+## ◆ RITUALS
 
-```text
-.
-├── .github/workflows/   # CI/CD pipelines (Release & Checks)
-├── .husky/              # Git hooks
-├── src/
-│   ├── assets/          # Static assets
-│   ├── components/      # Reusable UI components
-│   ├── composables/     # Shared Vue logic
-│   ├── layouts/         # Layout components
-│   ├── router/          # Vue Router config
-│   ├── stores/          # Pinia stores
-│   ├── types/           # TypeScript definitions
-│   ├── utils/           # Helper functions
-│   ├── views/           # Page-level components
-│   ├── App.vue          # Root component
-│   └── main.ts          # Entry point
-├── tests/               # Unit tests
-├── eslint.config.mjs    # ESLint config
-└── vite.config.ts       # Vite config
+**The core ceremony** - the project birth:
+
+1. Clone the template as the new name and detach the history - one
+   command, a fresh `.git`.
+2. Install with Bun - the hooks install themselves, the editor
+   configures itself from `.vscode/`.
+3. Commit with a conventional message - the corridor ran already:
+   lint, format, type-check, tests.
+4. Merge to `main`. Semantic Release takes it from there: version,
+   changelog, tag - without a ceremony of its own.
+
+**The ceremony of the committed code** - nothing reaches a commit
+without the corridor: lint-staged on the staged files, Commitlint on
+the message. The history is clean because the gates are automatic.
+
+**The ceremony of the automated tag** - a conventional commit is the
+only ritual a release needs. Semantic Release reads the message, and
+the version number follows the meaning - `feat` grows the minor,
+`fix` grows the patch, and the changelog writes itself.
+
+---
+
+## ◆ ECHOES
+
+**Where this artifact is heading**
+
+```
+stack    ▸ Vue 3.5, TS strict, Tailwind 4, Bun ─────────────────────── ▸ sealed
+gates    ▸ ESLint, Husky, Commitlint, Vitest ────────────────────────── ▸ sealed
+release  ▸ Semantic Release: version, changelog, tags ──────────────── ▸ sealed
+demo     ▸ live Netlify deployment ──────────────────────────────────── ▸ sealed
 ```
 
----
+**Raising the artifact** - the release rules live in `.releaserc`;
+the CI/CD in `.github/workflows/`. Open an issue first to discuss a
+change to the defaults.
 
-## Configuration Notes
-
-### Semantic Release
-
-This template includes a `.releaserc` configuration.
-
-- It automatically bumps version numbers based on commit messages.
-- It generates a `CHANGELOG.md`.
-- **To enable:** Ensure you have `GITHUB_TOKEN` or a PAT configured in your GitHub Actions secrets if you have branch protections.
-
-### IDE Setup (VS Code)
-
-Recommended extensions are pre-configured in `.vscode/extensions.json`.
-
-- **Vue - Official** (Volar)
-- **Tailwind CSS IntelliSense**
-- **ESLint** (Disable _Vetur_ to avoid conflicts)
+**Status** - CI gates every push and Semantic Release ships every
+merge. [Watch the gates](.github/workflows).
 
 ---
 
-## Contributing
-
-1.  **Fork** the repository.
-2.  **Create** a feature branch (`git checkout -b feat/awesome-feature`).
-3.  **Commit** using [Conventional Commits](https://www.conventionalcommits.org/) (`feat: add awesome feature`).
-4.  **Push** to the branch.
-5.  **Open** a Pull Request.
-
----
-
-## License
+```
+  ─────────────────────────────────────────
+   The best scaffold is the one
+   that also ships itself.
+  ─────────────────────────────────────────
+```
 
 [MIT](LICENSE)
