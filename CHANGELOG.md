@@ -1,3 +1,9 @@
+## [1.0.13](https://github.com/suradet-ps/vue-bun-starter/compare/v1.0.12...v1.0.13) (2026-08-29)
+
+### 📝 Documentation
+
+* rewrite README as artifact protocol (pulse, ignition, anatomy, rituals, echoes) ([dbb25bd](https://github.com/suradet-ps/vue-bun-starter/commit/dbb25bdb18c48ef5215f472d1278a8efec2ad633))
+
 ## [1.0.12](https://github.com/suradet-ps/vue-bun-starter/compare/v1.0.11...v1.0.12) (2026-08-08)
 
 ### 📦 Dependency Updates

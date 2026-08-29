@@ -1,7 +1,7 @@
 {
   "name": "vue-bun-starter",
   "type": "module",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "private": true,
   "scripts": {
     "dev": "vite",
