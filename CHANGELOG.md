@@ -1,3 +1,9 @@
+## [1.0.14](https://github.com/suradet-ps/vue-bun-starter/compare/v1.0.13...v1.0.14) (2026-08-29)
+
+### 📝 Documentation
+
+* standardize MIT license line wording ([246ebc9](https://github.com/suradet-ps/vue-bun-starter/commit/246ebc922d7a8b80531f9f310c27432124f77cd2))
+
 ## [1.0.13](https://github.com/suradet-ps/vue-bun-starter/compare/v1.0.12...v1.0.13) (2026-08-29)
 
 ### 📝 Documentation
